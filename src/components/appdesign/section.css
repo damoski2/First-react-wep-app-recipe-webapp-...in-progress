@@ -1,0 +1,639 @@
+/*recipe item*/
+.thisweekfood {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thisweekfood div img{
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 2px 2px 7px 3px #200;
+    transition: .7s;
+}
+
+.thisweekfood div img:hover{
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 2px 2px 7px 3px #f00;
+    transition: .7s;
+    transform: scale(1.2);
+}
+
+.thisweekfood div{
+    padding: 4em 3em;
+    margin-left: 2em;
+    color: #f00;
+}
+
+@media(max-width:992px){
+    .thisweekfood div img{
+        width: 40vw;
+        height: 55vh;
+        box-shadow: 2px 2px 7px 3px #200;
+    }
+    .thisweekfood div p{
+        width: 300px;
+    }
+    .thisweekfood div{
+        padding: 4em 1em;
+        margin-left: 6em;
+        color: #f00;
+    }
+    
+}
+
+@media(max-width:768px){
+    .thisweekfood div img{
+        width: 40vw;
+        height: 55vh;
+        box-shadow: 2px 2px 7px 3px #200;
+    }
+    .thisweekfood div p{
+        width: 300px;
+    }
+    .thisweekfood div{
+        padding: 4em 1em;
+        margin-left: 10em;
+        color: #f00;
+    }
+    
+}
+
+@media(max-width:554px){
+    .thisweekfood div img{
+        width: 60vw;
+        height: 55vh;
+        box-shadow: 2px 2px 7px 3px #200;
+    }
+    .thisweekfood div p{
+        width: 200px;
+        font-size: 16px;
+    }
+    .thisweekfood div{
+        width: 200px;
+        padding: 4em 1em;
+        margin-left: 6em;
+        color: #f00;
+    }
+    
+}
+
+@media(max-width:320px){
+    .thisweekfood div img{
+        width: 60vw;
+        height: 55vh;
+        box-shadow: 2px 2px 7px 3px #200;
+    }
+    .thisweekfood div p{
+        width: 200px;
+        font-size: 15px;
+    }
+    .thisweekfood div{
+        width: 200px;
+        padding: 2em 0em;
+        margin-left: 6em;
+        color: #f00;
+    }
+    
+}
+/*carousel*/
+.carousel{
+    position:'absolute';
+    top:-23em;
+    left:200px;
+}
+
+@media(max-width:992px){
+    .carousel{
+       left: 4em;
+    }
+    .carousel p{
+        font-size: 17px;
+    }
+}
+
+@media(max-width:768px){
+    .carousel{
+       left: 2em;
+    }
+    .carousel p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:320px){
+    .carousel{
+        left: 0;
+    }
+    .carousel h1{
+        font-size: 27px;
+    }
+    .carousel p{
+        font-size: 15px;
+    }
+}
+
+.subsect img{
+    margin-top: 1em;
+    width: 50%;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 9px 3px ;
+}
+.subsect{
+    width: 250px;
+    display: block;
+    height: 340px;
+    padding: 0 10px;
+    margin-left: 1em;
+    margin-top: 6em;
+    background-color: rgba(209, 204, 221, 0.933);
+}
+
+.sectDetails{
+    position: relative;
+    left: 50em;
+    top: -20em;
+    margin-right: 900px;
+    padding: 19px 0;
+}
+
+.sectDetails p{
+    color: #fff;
+    font-size: 19px;
+    line-height: 1.8;
+    margin-left: -4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*footer*/
+.footer{
+    background-color: rgba(0,0,0,0.8);
+    position: relative;
+    bottom: -10px;
+}
+.footer p{
+    color: #fff;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Navbar section*/
+.about header{
+    width: 100%;
+    flex-direction: row;
+    background-color: rgba(46, 42, 42, 0.4);
+    padding: 5px 25px 10px 0;
+    
+  } 
+  
+  .about header h1{
+    color: #fff;
+    margin-top: .3em;
+    padding: 0 2.07em;
+    font-size: 30px;
+    font-family: cursive;
+  }
+  .about header div{
+     margin-left: 19em;
+     line-height: 1.5;
+     margin-top: 15px;
+     cursor: pointer;
+     margin-right: 132px;
+  }
+  .about header div a{
+    color: #fff;
+    transition: .7s linear all;
+    padding: 0 2em;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  .about header div a:hover{
+    color: #000;
+  }
+
+  .about header div a:active{
+    color: #f00;
+  }
+  
+ .aboutbody{
+     text-align: center;
+     padding: 10em  0 20em 0;
+     font-family: 'roboto-slab';
+ }
+ .aboutbody h1{
+     font-size: 42px;
+ }
+ /*Contact us*/
+section{
+    background: url(contactimg2.jpg)no-repeat;
+    background-size: cover;
+    min-height: 120vh;
+    background-attachment: fixed;
+    min-width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contactus{
+    color: #fdfdfd;
+    min-width: 50%;
+}
+
+.contactus p{
+    font-size: 19px;
+}
+.contactform{
+    float: right;
+    margin-top: -10px;
+    padding:20px 40px;
+    border-radius: 3%;
+    min-width: 42%;
+}
+
+.contactform form div{
+    padding-top: 10px;
+}
+
+.contactform form div label{
+    display: block;
+}
+
+#E_P{
+    margin-top: 36px;
+}
+
+.contactform form div input[type="text"],.contactform form div input[type="phone"],.contactform form div input[type="email"],.contactform form div textarea{
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: .5px solid rgba(0,0,0,0.4);
+}
+
+.contactform form div input[type="submit"]{
+    width: 100%;
+}
+
+.contactform form div textarea{
+    margin-top: -2px;
+}
+
+.contactform form div input:focus{
+    outline: none;
+}
+
+.contactform form div textarea:focus{
+    outline: none;
+}
+
+
+.method_of_contact div label{
+    display: inline;
+}
+
+.contactform form  div input[type="submit"]{
+    border-style: groove;
+    border-radius: 10px;
+    background: #ff0000;
+    padding: 4px 0;
+    color: #ffffff;
+    transition: .8s linear all;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.contactform form div input[type="submit"]:hover{
+    color: #ff0000;
+    background: #ffffff;
+}
+
+.light{
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 30px;
+    min-height: 70px;
+    box-shadow: 2px 3px 7px 3px #000000 inset;
+}
+@media(max-width:768px){
+    .contactform{
+        text-align: center;
+        float: none;
+        max-width: 80%;
+    }
+}
+
+@media(max-width:564px){
+    .contactform{
+        text-align: center;
+        float: none;
+        min-width: 35%;
+    }
+}
+
+/*Foodsection pages*/
+
+.gallery{
+    width: 100%;
+    padding: 60px 0;
+    background: #f1f1f1;
+}
+
+.inner{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.gallery h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.border{
+    width: 180px;
+    height: 4px;
+    background: #333;
+    margin: 60px auto;
+}
+
+.gallery .gallerysect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery .image{
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery .image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.gallery .image p{
+    margin-top: -5em;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 1em;
+
+}
+
+.gallery .image:hover img{
+    transform: scale(1.4)rotate(15deg);
+}
+
+@media screen and (max-width:960px){
+    .gallery .image{
+        flex:33.33%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .gallery .image{
+        flex:50%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .gallery .image{
+        flex:100%;
+    }
+}
+
+/*listfood*/
+/*african*/
+
+.listfood ul li{
+    list-style: none;
+}
+
+#header{
+    text-align: center;
+    margin-left: 10em;
+    color: #f00;
+}
+
+/*individual food*/
+
+.idividualfood{
+    position: relative;
+    top: 20em;
+}
+
+.extradesc{
+    display: inline;
+}
+
+.extradesc div{
+    margin-top: -37px;
+    position: absolute;
+    margin-left: 15px;
+    text-align: center;
+    color: rgb(65, 188, 225);
+}
+
+.extradesc div p{
+    display: inline;
+}
+
+.extradesc #bottomborder{
+    height: .1px;
+    min-width: 100vw;
+    margin-top: 5px;
+    margin-left: -15px;
+    border-bottom-style:  dotted;
+}
+
+.idividualfood img{
+    width: 100vw;
+    height: 70vh;
+}
+
+.ingreAndrecipe{
+    position: relative;
+    top: -2em;
+    text-align: center;
+}
+
+/*Steps(recipe)*/
+
+.steps{
+    background: #dfdde9;
+    width: 50%;
+    margin-left: 20em;
+    margin-top: 3em;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-bottom: 3px solid #010;
+    box-shadow: 2px 2px 8px 2px #000;
+}
+
+.steps .procedures{
+    background-color: #010;
+    color: #fff;
+}
+
+.steps div h1{
+    position: relative;
+    left: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(34,63,123);
+}
+
+.steps p{
+    position: relative;
+    left: 0;
+    display: block;
+    color: #f00;
+}
+
+.ingreAndrecipe hr{
+    width: 200px;
+    margin-left: 36em;
+}
+
+.idividualfood #utensils{
+    color: #f00;
+    margin-left: 29em;
+    position: relative;
+}
+
+@media(max-width:1200px){
+    .ingreAndrecipe hr{
+        margin-left: 25em;
+        width: 200px;
+    }
+    .idividualfood #utensils{
+        color: #f00;
+        margin-left: 25em;
+    }
+    .steps{
+        width: 800px;
+        margin-left: 9em;
+    }
+}
+
+@media(max-width:992px){
+    .ingreAndrecipe hr{
+        margin-left: 20em;
+        width: 200px;
+    }
+    .idividualfood #utensils{
+        color: #f00;
+        margin-left: 16em;
+    }
+    .steps{
+        width: 600px;
+        margin-left: 9em;
+    }
+}
+
+@media(max-width:768px){
+    .ingreAndrecipe hr{
+        margin-left: 12em;
+    }
+    .idividualfood #utensils{
+        color: #f00;
+        margin-left: 12em;
+    }
+    .steps{
+        width: 500px;
+        margin-left: 2em;
+    }
+}
+
+@media(max-width:560px){
+    .ingreAndrecipe hr{
+        margin-left: 10em;
+    }
+    .idividualfood #utensils{
+        color: #f00;
+        margin-left: 8em;
+    }
+    .steps{
+        width:440px;
+        margin-left: 1em;
+    }
+}
+
+@media(max-width:375px){
+    .ingreAndrecipe hr{
+        margin-left: 5em;
+    }
+    .idividualfood #utensils{
+        color: #f00;
+        margin-left: 3em;
+    }
+    .steps{
+        width:350px;
+        margin-left: 1em;
+    }
+}
+
+@media(max-width:360px){
+    .ingreAndrecipe hr{
+        margin-left: 5em;
+    }
+    .idividualfood #utensils{
+        color: #f00;
+        margin-left: 3em;
+    }
+    .steps{
+        width:320px;
+        margin-left: 0em;
+    }
+}
+
+@media(max-width:411px){
+    .ingreAndrecipe hr{
+        margin-left: 5em;
+    }
+    .idividualfood #utensils{
+        color: #f00;
+        margin-left: 3em;
+    }
+    .steps{
+        width:350px;
+        margin-left: 0.4em;
+    }
+}
+@media(max-width:320px){
+    .ingreAndrecipe hr{
+        margin-left: 5em;
+    }
+    .idividualfood #utensils{
+        color: #f00;
+        margin-left: 3em;
+    }
+    .steps{
+        width:320px;
+        margin-left: 0em;
+    }
+    .thumbsupdown{
+        left: -15em;
+    }
+}
+/*thumbsupdown*/
+
+.thumbsupdown{
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    top: -2.5em;
+    left: 10em;
+}
